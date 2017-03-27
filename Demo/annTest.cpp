@@ -129,7 +129,7 @@ int main()
 			//	{
 			//		image.at<Vec3b>(j, i) = blue;
 			//	}
-			Mat responseMat(1, 3, CV_32FC1);//这里的第二参数会自动变成2
+			Mat responseMat(1, 3, CV_32FC1);//这里的第二参数会自动变成2.
 
 			ann->predict(sampleMat, responseMat);
 			//float val = responseMat.at<float>()
